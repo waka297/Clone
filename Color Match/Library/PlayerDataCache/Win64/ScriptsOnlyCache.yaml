@@ -10,7 +10,6 @@ ScriptsOnlyBuild:
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Animation.Runtime.dll:
-    - UnityEngine.U2D.Animation.BufferManager
     - UnityEngine.U2D.Animation.SpriteSkinComposite
     - UnityEngine.U2D.Animation.SpriteSkinUpdateHelper
     Unity.2D.IK.Editor.dll:
@@ -128,17 +127,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18608}
     - Class: 114
-      Script: {instanceID: 21150}
+      Script: {instanceID: 18750}
     - Class: 114
-      Script: {instanceID: 21856}
+      Script: {instanceID: 21152}
     - Class: 114
-      Script: {instanceID: 22072}
+      Script: {instanceID: 21858}
     - Class: 114
-      Script: {instanceID: 22480}
+      Script: {instanceID: 22074}
     - Class: 114
-      Script: {instanceID: 23016}
+      Script: {instanceID: 22482}
     - Class: 114
-      Script: {instanceID: 30394}
+      Script: {instanceID: 23018}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -181,19 +180,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18608}
     - Class: 114
-      Script: {instanceID: 19238}
+      Script: {instanceID: 19240}
     - Class: 114
-      Script: {instanceID: 21150}
+      Script: {instanceID: 21152}
     - Class: 114
-      Script: {instanceID: 21380}
+      Script: {instanceID: 21382}
     - Class: 114
-      Script: {instanceID: 21856}
+      Script: {instanceID: 21858}
     - Class: 114
-      Script: {instanceID: 22072}
+      Script: {instanceID: 22074}
     - Class: 114
-      Script: {instanceID: 22480}
+      Script: {instanceID: 22482}
     - Class: 114
-      Script: {instanceID: 22488}
+      Script: {instanceID: 22490}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -240,23 +239,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18608}
     - Class: 114
-      Script: {instanceID: 19756}
+      Script: {instanceID: 19758}
     - Class: 114
-      Script: {instanceID: 19892}
+      Script: {instanceID: 19894}
     - Class: 114
-      Script: {instanceID: 20214}
+      Script: {instanceID: 20216}
     - Class: 114
-      Script: {instanceID: 20724}
+      Script: {instanceID: 20726}
     - Class: 114
-      Script: {instanceID: 21150}
+      Script: {instanceID: 21152}
     - Class: 114
-      Script: {instanceID: 21856}
+      Script: {instanceID: 21858}
     - Class: 114
-      Script: {instanceID: 22072}
+      Script: {instanceID: 22074}
     - Class: 114
-      Script: {instanceID: 22480}
+      Script: {instanceID: 22482}
     - Class: 114
-      Script: {instanceID: 23016}
+      Script: {instanceID: 23018}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -592,6 +591,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnMouseDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: f7ffb88035d94d05e3f2db0502dadd90
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GameOver
   - hash:
       serializedVersion: 2
       Hash: d7c8092511063e0dae8106bfc8ed63dd
@@ -1492,15 +1497,10 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: f7ffb88035d94d05e3f2db0502dadd90
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: GameOver
   platform: 19
   scenePathNames:
   - Assets/Scenes/main.unity
   - Assets/Scenes/game start.unity
   - Assets/Scenes/game over.unity
-  playerPath: C:/Users/SAMSUNG/Color Match/Build/Color Match.exe
+  playerPath: "C:/Users/SAMSUNG/OneDrive/\uBC14\uD0D5 \uD654\uBA74/Github/Clone/Color
+    Match/Build/Color Match.exe"
