@@ -10,7 +10,7 @@ public class GameOver : MonoBehaviour
 {
     public TextMeshProUGUI finalScoreprint;
 
-    public void gameover()
+    public void Gameover()
     {
         int finalscore = Score.GetScore();
         finalScoreprint.text = "Your Score: " + finalscore.ToString();
@@ -19,7 +19,7 @@ public class GameOver : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        gameover();
+        Gameover();
         ResetGame();
     }
 
